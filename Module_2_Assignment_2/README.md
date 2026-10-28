@@ -17,5 +17,9 @@ run:
 test:
 1. Download the test_values.json and put it in the same folder you activated Flask in
 2. open a new Anaconda prompt window and run: curl -X POST http://127.0.0.1:5000/sum -H "Content-Type: application/json" -d @test_values.json
+   result: A sum of test values that I made into a JSON file will be output in the prompt. You can make and test your own with the same command
+   
 3. In this same window, run: pytest test_M2A2app.py
+    result: It will run the tests in the file and return whether or not the program passed in the prompt window
+
 You should see The results of the test at the bottom of the prompt window
